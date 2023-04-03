@@ -1,72 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>chiara</title>
-    <link rel="stylesheet" href="CSS/style.css">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chiara's portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/22b532e359.js" crossorigin="anonymous"></script>
 
-</head>
+  </head>
 
-<body>
-
+  <body>
 
     <nav class="navbar">
-
-        <div class="navbar_container">
-
-            <a href="/" id="navbar_logo"></a>
-
-            <div class="navbar_toggle" id="mobile_menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-
-            <ul class="navbar_menu">
-                <li class="navbar_item">
-                    <a href="/" class="navbar_links">Home</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="./aboutMe.html" class="navbar_links">About Me</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="./projects.html" class="navbar_links">Projects</a>
-                </li>
-                <li class="navbar_btn">
-                    <a href="/" class="button">Sign up</a>
-                </li>
-
-            </ul>
-
+      <div class="navbar_container">
+        <a href="/" id="navbar_logo"><i class="logo"></i>CHIARA VIGILANTE</a>
+        <div class="navbar_toggle" id="mobile-menu">
+        <span class="bar"></span> <span class="bar"></span>
+        <span class="bar"></span>
         </div>
-
+        <ul class="navbar_menu">
+          <li class="navbar_item">
+            <a href="/" class="navbar_links">Home</a>
+          </li>
+          <li class="navbar_item">
+            <a href="/sobreMi.html" class="navbar_links">About Me</a>
+          </li>
+          <li class="navbar_item">
+            <a href="/" class="navbar_links">Projects</a>
+          </li>
+          <li class="navbar_btn"><a href="contactMe.html" class="button">Contact Me</a></li>
+        </ul>
+      </div>
     </nav>
 
-    <main>
+    <main class="main">
+      <div>
+        <div class="main_container">
+        <div class="main_content">
+            <h1>"Live as if you were to die tomorrow. <br> Learn as if you were to live forever."</h1>
+            <h2>-Mahatma Gandhi</h2>
+            <button class="main_btn"><a href="contactMe.html" class="button">Contact Me</a></button>
+        </div>
+        <div class="main_img--container">
+            <img id="main_img" src="images/ventanaContraluz.webp" alt="window and plants golden hour"/>
+        </div>
+        </div>
+      </div>
 
-        <section>
+    <section class="projects">
 
-        </section>
-
-        <article>
-
-        </article>
-        
-        <aside>
-
-        </aside>
-
-    </main>
-    
-    <footer>
-
-    </footer>
-
-</body>
-
-</html>
+      <div>
+        <h1>Projects</h1>
+        <div class="projects_container">
+          <div class="projects_card">
+            <h2>Guessing game</h2>
+            <p>Binary search</p>
+            <button>Get Started</button>
+          </div>
+          <div class="projects_card">
+            <h2>TBD</h2>
+            <p>TBD</p>
+            <button>TBD</button>
+          </div>
+        </div>
+      </div>
+      
+    </section>
