@@ -4,7 +4,6 @@
     margin:0;
     padding:0;
     font-family: 'Alkatra', cursive;
-    background-color: black;
     
     }
     
@@ -28,4 +27,9 @@
         max-width: 13000px;
         margin: 0 auto;
         padding: 0 50px;
+    }
+
+    #navbar_logo{
+
+        
     }
