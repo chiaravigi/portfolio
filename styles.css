@@ -95,10 +95,6 @@
   color: #fff;
 }
 
-.button:hover {
-  background: #4837ff;
-  transition: all 0.3s ease;
-}
 
 .navbar_links:hover {
   color: #f77062;
@@ -171,7 +167,7 @@
     justify-content: center;
     align-items: center;
     width: 80%;
-    height: 80px;
+    height: 40px;
     margin: 0;
   }
 
