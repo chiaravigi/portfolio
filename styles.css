@@ -200,7 +200,7 @@
     }
   }
   
-  /* Main Content CSS */
+  /* Main CSS */
   .main {
     background-image: url("images/ventanaContraluz.webp");
     font-family: 'Montserrat', sans-serif;
@@ -404,7 +404,7 @@
         rgba(0, 0, 0, 0) 0%,
         rgba(17, 17, 17, 0.6) 100%
       ),
-      url('/images/flores.jpeg');
+      url('images/flores.jpeg');
     background-size: cover;
     position: relative;
     color: #fff;
@@ -420,7 +420,7 @@
         rgba(0, 0, 0, 0) 0%,
         rgba(17, 17, 17, 0.9) 100%
       ),
-      url('/images/escalera.jpeg');
+      url('images/escalera.jpeg');
   }
   
   .projects_card h2 {
