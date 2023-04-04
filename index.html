@@ -17,20 +17,20 @@
 
     <nav class="navbar">
       <div class="navbar_container">
-        <a href="/" id="navbar_logo"><i class="logo"></i>CHIARA VIGILANTE</a>
+        <a href="/" id="navbar_logo">CHIARA VIGILANTE</a>
         <div class="navbar_toggle" id="mobile-menu">
-        <span class="bar"></span> <span class="bar"></span>
-        <span class="bar"></span>
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
         </div>
         <ul class="navbar_menu">
           <li class="navbar_item">
             <a href="/" class="navbar_links">Home</a>
           </li>
           <li class="navbar_item">
-            <a href="aboutMe.html" class="navbar_links">About Me</a>
+            <a href="/sobreMi.html" class="navbar_links">About Me</a>
           </li>
           <li class="navbar_item">
-            <a href="/" class="navbar_links">Projects</a>
+            <a href="#projects" class="navbar_links">Projects</a>
           </li>
           <li class="navbar_btn"><a href="contactMe.html" class="button">Contact Me</a></li>
         </ul>
@@ -40,18 +40,19 @@
     <main class="main">
       <div>
         <div class="main_container">
-        <div class="main_content">
+          <div class="main_content">
             <h1>"Live as if you were to die tomorrow. <br> Learn as if you were to live forever."</h1>
             <h2>-Mahatma Gandhi</h2>
-            <button class="main_btn"><a href="contactMe.html" class="button">Contact Me</a></button>
-        </div>
-        <div class="main_img--container">
+            <button class="main_btn"><a href="contactMe.html">Contact Me</a></button>
+          </div>
+          <div class="main_img--container">
             <img id="main_img" src="images/ventanaContraluz.webp" alt="window and plants golden hour"/>
-        </div>
+          </div>
         </div>
       </div>
 
-    <section class="projects">
+
+    <section class="projects" id="projects">
 
       <div>
         <h1>Projects</h1>
@@ -59,7 +60,7 @@
           <div class="projects_card">
             <h2>Guessing game</h2>
             <p>Binary search</p>
-            <button><a href="guessingGmae.html" class="button">Get Started</button>
+            <button><a href="guessingGmae.html" class="button">Get Started</a></button>
           </div>
           <div class="projects_card">
             <h2>TBD</h2>
@@ -68,5 +69,35 @@
           </div>
         </div>
       </div>
-
     </section>
+
+
+    <footer>
+        <section class="footer_container" class="social_media">
+          <div class="social_media--wrap">
+            <div class="footer_logo">
+              <a href="/" id="footer_logo">CHIARA VIGILANTE</a>
+            </div>
+            <p class="website_rights">© CHIARA 2023. All rights reserved</p>
+            <div class="social_icons">
+              </a>
+              <a
+                class="social_icon--link"
+                href="https://www.linkedin.com/in/chiara-vigilante-1767901b6/"
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+    
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+
+  </body>
+
+</html>
